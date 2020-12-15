@@ -12,7 +12,8 @@ class ThemeParser():
         Difficulties = {
             1: "Easy",
             2: "Medium",
-            3: "Hard"
+            3: "Hard",
+            4: "EXTREME"
         }
         return Difficulties.get(self.DATA["Theme_Difficulty"], "Unknown Difficulty")
     def GetDetails(self):
