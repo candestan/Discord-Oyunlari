@@ -1,0 +1,36 @@
+{
+    "Theme_Name": "TEST",
+    "Theme_Difficulty": "1",
+    "Theme_Details": "Bu, deneme amaçlı oluşturulmuş bir temadır. ",
+    "Theme_Objective": "HR",
+    "Theme_Roles": {
+        "Role": [{
+                "Name": "Test_Role_1",
+                "Count_Per_Game": 2,
+                "IsImportant": true
+            },
+            {
+                "Name": "Test_Role_2",
+                "Count_Per_Game": 1,
+                "IsImportant": false
+            }
+        ]
+    },
+    "Theme_Steps": {
+        "Step": [{
+                "StoryText": "Oyun ve 1. aşama. Aşama ile alakalı yazı.",
+                "IsAllMuted": false,
+                "BlockCount": 3,
+                "VictimsRoleName": "Test_Role_1",
+                "": ""
+            },
+            {
+                "StoryText": "2. aşama. Aşama ile alakalı yazı.",
+                "IsAllMuted": false,
+                "BlockCount": 1,
+                "VictimsRoleName": "Test_Role_1",
+                "": ""
+            }
+        ]
+    }
+}
