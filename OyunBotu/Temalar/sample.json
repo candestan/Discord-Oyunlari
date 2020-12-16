@@ -1,24 +1,24 @@
 {
     "Theme":{
         "Name": "TEST",
-        "Difficulty": "1",
+        "Difficulty": 1,
         "Details": "Bu, deneme amaçlı oluşturulmuş bir temadır. ",
         "Objective": "HR",
+        "Author":"Can Destan",
         "Roles": {
-            "Role": [{
+            "Test_Role_1": {
                     "Name": "Test_Role_1",
                     "Count_Per_Game": 2,
                     "IsImportant": true
                 },
-                {
+            "Test_Role_2":{
                     "Name": "Test_Role_2",
                     "Count_Per_Game": 1,
                     "IsImportant": false
                 }
-            ]
         },
-        "Steps": {
-            "Step": [{
+        "Steps": [
+                {
                     "StoryText": "Oyun ve 1. aşama. Aşama ile alakalı yazı.",
                     "IsAllMuted": false,
                     "BlockCount": 3,
@@ -32,7 +32,6 @@
                     "VictimsRoleName": "Test_Role_1",
                     "": ""
                 }
-            ]
-        }
+        ]
     }
 }
