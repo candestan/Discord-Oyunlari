@@ -7,20 +7,24 @@ class ThemeParser():
                 "Details": str,
                 "Objective": str,
                 "Roles": {
-                    str: {
+                    str:[
+                        {
                             "Name": str,
                             "Count_Per_Game": int,
                             "IsImportant": bool
                         }
+                        ]
                 },
-                "Steps":[
-                    {
-                        "StoryText": str,
-                        "IsAllMuted": bool,
-                        "BlockCount": int,
-                        "VictimsRoleName": str
-                    }
-                ]
+                "Steps":{
+                    str:[
+                        {
+                            "StoryText": str,
+                            "IsAllMuted": bool,
+                            "BlockCount": int,
+                            "VictimsRoleName": str
+                        }
+                    ]
+                }
             }
         }
     def __init__(self, DIR=""):
